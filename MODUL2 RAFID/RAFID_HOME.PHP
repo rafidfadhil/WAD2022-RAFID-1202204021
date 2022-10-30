@@ -78,7 +78,6 @@ $tempat = [
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">8 Kursi</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold">1500 CC</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold">Manual</p>
-                        <hr class="m-0">
                         <div class="text-center bg-light">
                             <button class="m-2 btn btn-primary" type="submit"><a href="RAFID_BOOKING.php?img=<?= $tempat[0]["img"];?>&gdg=<?= $tempat[0]["gdg"];?>" style="color: white; text-decoration: none;">Book Now</a></button>
                         </div>
@@ -94,7 +93,6 @@ $tempat = [
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">5 Kursi</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">2500 CC</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">Matic</p>
-                        <hr class="m-0">
                         <div class="text-center bg-light">
                             <button class="m-2 btn btn-primary" type="submit"><a href="RAFID_BOOKING.php?img=<?= $tempat[1]["img"];?>&gdg=<?= $tempat[1]["gdg"];?>" style="color: white; text-decoration: none;">Book Now</a></button>
                         </div>
@@ -110,7 +108,6 @@ $tempat = [
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">5 Kursi</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">2700 CC</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold">Manual</p>
-                        <hr class="m-0">
                         <div class="text-center bg-light">
                             <button class="m-2 btn btn-primary" type="submit"><a href="RAFID_BOOKING.php?img=<?= $tempat[2]["img"];?>&gdg=<?= $tempat[2]["gdg"];?>" style="color: white; text-decoration: none;">Book Now</a></button>
                         </div>
