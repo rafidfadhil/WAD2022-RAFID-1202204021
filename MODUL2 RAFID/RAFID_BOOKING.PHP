@@ -4,17 +4,17 @@ $credit = "Rafid_1202204021";
 
 $tempat = [
     [
-        "gdg" => "Toyota Rush",
+        "tp" => "Toyota Rush",
         "yar" => 200000,
         "img" => "IMG/Rush.png"
     ],
     [
-        "gdg" => "BMW M1",
+        "tp" => "BMW M1",
         "yar" => 350000,
         "img" => "img/mobil.png"
     ],
     [
-        "gdg" => "Marchedes",
+        "tp" => "Marchedes",
         "yar" => 500000,
         "img" => "img/Marchedes.png"
     ],
@@ -99,11 +99,11 @@ $tempat = [
                                         <option selected>Choose...</option>
                                         <?php foreach ($tempat as $tmp):?>
                                             <?php
-                                                if($tmp["gdg"]==$_GET["gdg"]){
-                                                    ?><option selected="selected" value="<?= $tmp["gdg"];?>"><?= $tmp["gdg"];?></option>
+                                                if($tmp["tp"]==$_GET["tp"]){
+                                                    ?><option selected="selected" value="<?= $tmp["tp"];?>"><?= $tmp["tp"];?></option>
                                             <?php
                                                 }else{
-                                                    ?><option value="<?= $tmp["gdg"];?>"><?=$tmp["gdg"];?></option>
+                                                    ?><option value="<?= $tmp["tp"];?>"><?=$tmp["tp"];?></option>
                                             <?php }?>
                                         <?php endforeach; ?>
                                     </select>

@@ -4,17 +4,17 @@ $credit = "Rafid_1202204021";
 
 $tempat = [
     [
-        "gdg" => "Toyota Rush",
+        "tp" => "Toyota Rush",
         "yar" => 200000,
         "img" => "IMG/Rush.png"
     ],
     [
-        "gdg" => "BMW M1",
+        "tp" => "BMW M1",
         "yar" => 350000,
         "img" => "img/mobil.png"
     ],
     [
-        "gdg" => "Marchedes",
+        "tp" => "Marchedes",
         "yar" => 500000,
         "img" => "img/Marchedes.png"
     ],
@@ -124,13 +124,13 @@ else{
                         </td>
                         <td>Rp.
                             <?php
-                                if ($_POST["tipe"] == $tempat[0]["gdg"]){
+                                if ($_POST["tipe"] == $tempat[0]["tp"]){
                                     echo ($_POST["days"]*$tempat[0]["yar"])+$serprice;
                                 }
-                                else if ($_POST["tipe"] == $tempat[1]["gdg"]){
+                                else if ($_POST["tipe"] == $tempat[1]["tp"]){
                                     echo ($_POST["days"]*$tempat[1]["yar"])+$serprice;
                                 }
-                                else if ($_POST["tipe"] == $tempat[2]["gdg"]){
+                                else if ($_POST["tipe"] == $tempat[2]["tp"]){
                                     echo ($_POST["days"]*$tempat[2]["yar"])+$serprice;
                                 }
                                 else{

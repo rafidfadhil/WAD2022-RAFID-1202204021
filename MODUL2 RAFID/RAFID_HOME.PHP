@@ -4,17 +4,17 @@ $credit = "Rafid_1202204021";
 
 $tempat = [
     [
-        "gdg" => "Toyota Rush",
+        "tp" => "Toyota Rush",
         "yar" => 200000,
         "img" => "IMG/Rush.png"
     ],
     [
-        "gdg" => "BMW M1",
+        "tp" => "BMW M1",
         "yar" => 350000,
         "img" => "img/mobil.png"
     ],
     [
-        "gdg" => "Marchedes",
+        "tp" => "Marchedes",
         "yar" => 500000,
         "img" => "img/Marchedes.png"
     ],
@@ -72,14 +72,14 @@ $tempat = [
                     <div class="card shadow-sm rounded" >
                         <img src="<?php echo $tempat[0]["img"];?>" alt="">
                         <div class="m-3">
-                            <p class="m-0" style="font-size: 20px"><?php echo $tempat[0]["gdg"];?></p>
+                            <p class="m-0" style="font-size: 20px"><?php echo $tempat[0]["tp"];?></p>
                             <p class="m-0" style="color: grey">Rp.<?php echo $tempat[0]["yar"];?> / Days</p>
                         </div>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">8 Kursi</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold">1500 CC</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold">Manual</p>
                         <div class="text-center bg-light">
-                            <button class="m-2 btn btn-primary" type="submit"><a href="RAFID_BOOKING.php?img=<?= $tempat[0]["img"];?>&gdg=<?= $tempat[0]["gdg"];?>" style="color: white; text-decoration: none;">Book Now</a></button>
+                            <button class="m-2 btn btn-primary" type="submit"><a href="RAFID_BOOKING.php?img=<?= $tempat[0]["img"];?>&tp=<?= $tempat[0]["tp"];?>" style="color: white; text-decoration: none;">Book Now</a></button>
                         </div>
                     </div>
                 </div>
@@ -87,14 +87,14 @@ $tempat = [
                     <div class="card shadow-sm rounded" >
                         <img src="<?php echo $tempat[1]["img"];?>" alt="">
                         <div class="m-3">
-                            <p class="m-0" style="font-size: 20px"><?php echo $tempat[1]["gdg"];?></p>
+                            <p class="m-0" style="font-size: 20px"><?php echo $tempat[1]["tp"];?></p>
                             <p class="m-0" style="color: grey">Rp.<?php echo $tempat[1]["yar"];?> / Days</p>
                         </div>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">5 Kursi</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">2500 CC</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">Matic</p>
                         <div class="text-center bg-light">
-                            <button class="m-2 btn btn-primary" type="submit"><a href="RAFID_BOOKING.php?img=<?= $tempat[1]["img"];?>&gdg=<?= $tempat[1]["gdg"];?>" style="color: white; text-decoration: none;">Book Now</a></button>
+                            <button class="m-2 btn btn-primary" type="submit"><a href="RAFID_BOOKING.php?img=<?= $tempat[1]["img"];?>&tp=<?= $tempat[1]["tp"];?>" style="color: white; text-decoration: none;">Book Now</a></button>
                         </div>
                     </div>
                 </div>
@@ -102,14 +102,14 @@ $tempat = [
                     <div class="card shadow-sm rounded" >
                         <img src="<?php echo $tempat[2]["img"];?>" alt="">
                         <div class="m-3">
-                        <p class="m-0" style="font-size: 20px"><?php echo $tempat[2]["gdg"];?></p>
+                        <p class="m-0" style="font-size: 20px"><?php echo $tempat[2]["tp"];?></p>
                             <p class="m-0" style="color: grey">Rp.<?php echo $tempat[2]["yar"];?> / Days</p>
                         </div>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">5 Kursi</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold;">2700 CC</p>
                         <hr class="m-0"><p class="m-2" style="text-align: center; color: blue; font-weight: bold">Manual</p>
                         <div class="text-center bg-light">
-                            <button class="m-2 btn btn-primary" type="submit"><a href="RAFID_BOOKING.php?img=<?= $tempat[2]["img"];?>&gdg=<?= $tempat[2]["gdg"];?>" style="color: white; text-decoration: none;">Book Now</a></button>
+                            <button class="m-2 btn btn-primary" type="submit"><a href="RAFID_BOOKING.php?img=<?= $tempat[2]["img"];?>&tp=<?= $tempat[2]["tp"];?>" style="color: white; text-decoration: none;">Book Now</a></button>
                         </div>
                     </div>
                 </div>
