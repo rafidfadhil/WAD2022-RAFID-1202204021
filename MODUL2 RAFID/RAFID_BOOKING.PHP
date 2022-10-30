@@ -94,8 +94,8 @@ $tempat = [
                                 <input class="form-control" type="number" name="days" id="days" min="1" value="1">
                             </li>
                             <li class="m-1">
-                                <label for="gedung">Car Type</label>
-                                    <select class="form-select" name="gedung" id="gedung">
+                                <label for="tipe">Car Type</label>
+                                    <select class="form-select" name="tipe" id="tipe">
                                         <option selected>Choose...</option>
                                         <?php foreach ($tempat as $tmp):?>
                                             <?php

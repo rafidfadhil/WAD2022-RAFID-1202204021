@@ -25,7 +25,7 @@ $tempat = [
 $event = $_POST["event"]." ".$_POST["time"];
 $starev = date("d-m-Y H:i", strtotime($event));
 $endev = date("d-m-Y H:i", strtotime($event)+60*60*24*$_POST["days"]);
-$gedung = $_POST["gedung"];
+$tipe = $_POST["tipe"];
 $pone = $_POST["pone"];
 
 $serprice = 0; 
@@ -108,7 +108,7 @@ else{
                         <td><?php echo $credit; ?></td>
                         <td><?php echo $starev?></td>
                         <td><?php echo $endev?></td>
-                        <td><?php echo $gedung?></td>
+                        <td><?php echo $tipe?></td>
                         <td><?php echo $pone?></td>
                         <td>
                             <?php
@@ -124,13 +124,13 @@ else{
                         </td>
                         <td>Rp.
                             <?php
-                                if ($_POST["gedung"] == $tempat[0]["gdg"]){
+                                if ($_POST["tipe"] == $tempat[0]["gdg"]){
                                     echo ($_POST["days"]*$tempat[0]["yar"])+$serprice;
                                 }
-                                else if ($_POST["gedung"] == $tempat[1]["gdg"]){
+                                else if ($_POST["tipe"] == $tempat[1]["gdg"]){
                                     echo ($_POST["days"]*$tempat[1]["yar"])+$serprice;
                                 }
-                                else if ($_POST["gedung"] == $tempat[2]["gdg"]){
+                                else if ($_POST["tipe"] == $tempat[2]["gdg"]){
                                     echo ($_POST["days"]*$tempat[2]["yar"])+$serprice;
                                 }
                                 else{
