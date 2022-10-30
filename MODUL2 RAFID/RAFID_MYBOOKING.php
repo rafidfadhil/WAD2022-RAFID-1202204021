@@ -96,9 +96,9 @@ else{
                         <th scope="col">Name</th>
                         <th scope="col">Check-in</th>
                         <th scope="col">Check-out</th>
-                        <th scope="col">Building Type</th>
+                        <th scope="col">Car Type</th>
                         <th scope="col">Phone Number</th>
-                        <th scope="col">Service</th>
+                        <th scope="col">Service(s)</th>
                         <th scope="col">Total Price</th>
                     </tr>
                 </thead>

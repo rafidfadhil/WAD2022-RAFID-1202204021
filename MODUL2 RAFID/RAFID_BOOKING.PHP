@@ -82,7 +82,7 @@ $tempat = [
                                 <input class="form-control" type="text" name="nama" id="nama" value="<?php echo $credit?>" readonly>
                             </li>
                             <li class="m-1">
-                                <label for="event">Event Date</label><br>
+                                <label for="event">Book Date</label><br>
                                 <input class="form-control" type="date" name="event" id="event">
                             </li>
                             <li class="m-1">
@@ -94,7 +94,7 @@ $tempat = [
                                 <input class="form-control" type="number" name="days" id="days" min="1" value="1">
                             </li>
                             <li class="m-1">
-                                <label for="gedung">Building Type</label>
+                                <label for="gedung">Car Type</label>
                                     <select class="form-select" name="gedung" id="gedung">
                                         <option selected>Choose...</option>
                                         <?php foreach ($tempat as $tmp):?>
@@ -113,7 +113,7 @@ $tempat = [
                                 <input class="form-control" type="number" name="pone" id="pone" min="0">
                             </li>
                             <li class="m-1">
-                                <label for="service">Add Service</label><br>
+                                <label for="service">Add Service (s)</label><br>
                                 <input class="form-check-input m-1" type="checkbox" name="ser[]" value="Helt Protocol" id="Helt Protocol"><label class="form-check-label" for="Helt Protocol">Helt Protocol / Rp 100000</label><br>
                                 <input class="form-check-input m-1" type="checkbox" name="ser[]" value="Driver" id="Driver"><label class="form-check-label" for="Driver">Driver / Rp 250000</label><br>
                                 <input class="form-check-input m-1" type="checkbox" name="ser[]" value="Fuel filled System" id="Fuel filled"><label class="form-check-label" for="Fuel filled">Fuel filled / Rp 100000</label><br>

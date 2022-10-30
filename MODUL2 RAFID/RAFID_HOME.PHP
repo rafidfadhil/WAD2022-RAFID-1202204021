@@ -57,7 +57,7 @@ $tempat = [
 
         <!-- Welcome -->
         <div>
-            <p class="m-2" style="text-align: center; font-size: 25px">Welcome To EAD Rent</p>
+            <p class="m-2" style="text-align: center; font-size: 25px">WELCOME TO EAD RENT</p>
         </div>
 
         <div class="container bg-black">
