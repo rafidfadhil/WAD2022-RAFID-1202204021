@@ -108,7 +108,7 @@ else{
                         <td><?php echo $credit; ?></td>
                         <td><?php echo $starev?></td>
                         <td><?php echo $endev?></td>
-                        <td><?php echo $tipe?></td>
+                        <td><?php echo $type?></td>
                         <td><?php echo $pone?></td>
                         <td>
                             <?php
