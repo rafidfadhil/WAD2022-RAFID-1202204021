@@ -64,7 +64,7 @@ $tempat = [
                 <!-- Gambar mobil -->
                 <div class="col-6 ps-5 pe-5 d-flex align-items-center">
                     <?php
-                        if(isset($_POST["img"])){
+                        if(isset($_GET["img"])){
                             ?><img class="" width="100%" src="<?= $_GET["img"];?>" alt="">
                     <?php
                         }else{
@@ -76,7 +76,7 @@ $tempat = [
                 <!-- form -->
                 <div class="col-6 ps-5 pe-5">
                     <ul type="none">
-                        <form action="RAFID_MYBOOKING.php" method="get">
+                        <form action="RAFID_MYBOOKING.php" method="post">
                             <li class="m-1">
                                 <label for="nama">Name</label><br>
                                 <input class="form-control" type="text" name="nama" id="nama" value="<?php echo $credit?>" readonly>
