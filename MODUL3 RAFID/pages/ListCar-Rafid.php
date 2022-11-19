@@ -59,7 +59,7 @@ if (isset($_GET['message'])) {
                     <?php
           if (mysqli_num_rows($result) > 0) {
             while ($row = mysqli_fetch_assoc($result)) {
-              echo "<div class='card cardcontent' style='width: 18rem;'>
+              echo "<div class='card cardcontent' style='width: 18rem;' mb-3>
             <img src='../asset/images/" . $row["foto_mobil"] . "' class='card-img-top' alt='fotomobil' style='padding: 16px;'>
             <div class='card-body'>
               <h5 class='card-title'>" . $row["nama_mobil"] . "</h5>
@@ -82,7 +82,7 @@ if (isset($_GET['message'])) {
     <!-- Content End -->
 
     <!-- footer -->
-    <footer class="fixed-bottom" style="padding-bottom: 50px;">
+    <footer style="padding-bottom: 50px; margin-top:50px;">
         <div class="container">
             <p
                 style="font-family: 'Raleway'; font-style: normal; font-weight: 700; font-size: 16px; line-height: 19px; color: #757575;">
