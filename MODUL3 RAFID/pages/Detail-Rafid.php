@@ -39,10 +39,10 @@ $result = mysqli_query($connector, $sqldb);
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav gap-4">
                     <li class="nav-item">
-                        <a class="nav-link" style="font-weight: bold; color:white;" href="../index.php">Home</a>
+                        <a class="nav-link" href="../index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Add-Rafid.php">Mycar</a>
+                        <a class="nav-link" style="font-weight: bold; color:white;" href="Add-Rafid.php">Mycar</a>
                     </li>
                 </ul>
             </div>
