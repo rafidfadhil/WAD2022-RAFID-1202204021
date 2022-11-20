@@ -72,7 +72,7 @@ function onClick($result)
                     </div>
                     <span class="d-flex gap-5 align-items-center">
                         <img src="./asset/images/logo-ead 1.png" alt="" style="margin-top: 70px;">
-                        <p style="margin-top: 80px; font-size:12px;">Rafid_1202200000</p>
+                        <p style="margin-top: 80px; font-size:12px;">Rafid_1202204021</p>
                     </span>
                 </div>
                 <img src="./asset/images/Image.png" alt="">

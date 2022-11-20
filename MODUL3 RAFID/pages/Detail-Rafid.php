@@ -3,9 +3,9 @@ require '../config/connector.php';
 
 $id = $_GET['id'];
 
-$sql = "SELECT * FROM showroom_rafid_table WHERE id_mobil = $id";
+$sqldb = "SELECT * FROM showroom_rafid_table WHERE id_mobil = $id";
 
-$result = mysqli_query($connector, $sql);
+$result = mysqli_query($connector, $sqldb);
 ?>
 
 <!DOCTYPE html>
