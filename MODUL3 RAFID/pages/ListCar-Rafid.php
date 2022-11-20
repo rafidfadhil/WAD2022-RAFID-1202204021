@@ -20,28 +20,38 @@ if (isset($_GET['message'])) {
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>List Car | Rafid_1202204021</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Rafid 1202204021</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
     <style>
-    <?php include '../asset/style/index.css';
+    <?php include "../asset/style/index.css";
     ?>
     </style>
 </head>
 
 <body>
-    <!-- Nav -->
     <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container">
+        <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav gap-4">
                     <li class="nav-item">
                         <a class="nav-link" href="../index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="font-weight: bold; color:white;" href="Add-Rafid.php">Mycar</a>
+                        <a class="nav-link" style="font-weight: bold; color:white;"
+                            href="../pages/Add-Rafid.php">Mycar</a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +92,7 @@ if (isset($_GET['message'])) {
     <!-- Content End -->
 
     <!-- footer -->
-    <footer style="padding-bottom: 50px; margin-top:50px;">
+    <footer class="fixed-bottom" style="padding-bottom: 50px; margin-top:50px;">
         <div class="container">
             <p
                 style="font-family: 'Raleway'; font-style: normal; font-weight: 700; font-size: 16px; line-height: 19px; color: #757575;">
