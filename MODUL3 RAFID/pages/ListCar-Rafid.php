@@ -55,6 +55,15 @@ if (isset($_GET['message'])) {
                     </li>
                 </ul>
             </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="Add-Rafid.php"><button
+                                class="btn btn-light text-primary px-2 py-1"> Add
+                                Car</button></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!-- Nav End -->
