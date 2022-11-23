@@ -1,5 +1,5 @@
 <?php
-require '../config/connector.php';
+require '../connector.php';
 
 $query = "SELECT * FROM showroom_rafid_table";
 $result = mysqli_query($connector, $query);
