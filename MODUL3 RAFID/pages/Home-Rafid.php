@@ -1,5 +1,5 @@
 <?php
-require './config/connector.php';
+require '../config/connector.php';
 
 $query = "SELECT * FROM showroom_rafid_table";
 $result = mysqli_query($connector, $query);
@@ -33,7 +33,7 @@ function onClick($result)
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
     <style>
-    <?php include "./asset/style/index.css";
+    <?php include "../asset/style/index.css";
     ?>
     </style>
 </head>
@@ -47,7 +47,7 @@ function onClick($result)
                         <a class="nav-link" style="font-weight: bold; color:white;" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/Add-Rafid.php">Mycar</a>
+                        <a class="nav-link" href="./Add-Rafid.php">Mycar</a>
                     </li>
                 </ul>
             </div>
@@ -71,11 +71,11 @@ function onClick($result)
                                     } ?>" class="mycar" type="button">Mycar</a>
                     </div>
                     <span class="d-flex gap-5 align-items-center">
-                        <img src="./asset/images/logo-ead 1.png" alt="" style="margin-top: 70px;">
+                        <img src="../asset/images/logo-ead 1.png" alt="" style="margin-top: 70px;">
                         <p style="margin-top: 80px; font-size:12px;">Rafid_1202204021</p>
                     </span>
                 </div>
-                <img src="./asset/images/Image.png" alt="">
+                <img src="../asset/images/Image.png" alt="">
             </div>
         </div>
     </section>

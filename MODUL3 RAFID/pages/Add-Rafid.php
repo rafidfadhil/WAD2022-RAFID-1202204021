@@ -72,7 +72,7 @@
                     <label for="deskripsi" class="form-label"><b>Deskripsi</b></label>
                     <textarea name="desc" id="deskripsi" name="deskripsi" class="form-control"
                         placeholder="Masukkan Deskripsi Mobil Anda"
-                        style="width: 1000px; height: 147px; border: 1px solid #757575; border-radius: 8px;"></textarea>
+                        style="width: 190px; height: 147px; border: 1px solid #757575; border-radius: 8px;"></textarea>
                 </div>
                 <div class="mt-3">
                     <label for="formFile" class="form-label"><b>Foto</b></label>
