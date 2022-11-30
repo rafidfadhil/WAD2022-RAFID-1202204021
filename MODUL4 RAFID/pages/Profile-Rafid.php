@@ -4,7 +4,7 @@ require "../config/connector.php";
 $query = "SELECT * FROM showroom_rafid_table";
 $result = mysqli_query($conn_user, $query);
 
-if(!isset($_SESSION["login"])){
+if(!isset($_COOKIES["login"])){
     header("location: index.php");
     exit;
 }
