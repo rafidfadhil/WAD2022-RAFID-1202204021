@@ -179,7 +179,7 @@ $pilihan_warna = [
                             </select>
                         </div>
                     </div>
-                    <button class="btn btn-primary" type="submit" name="update">Update gan</button>
+                    <button class="btn btn-primary" type="submit" name="update">Update</button>
                 </form>
             </div>
         </div>
