@@ -1,5 +1,5 @@
 <?php
-    if(!isset()){
+    if(!isset($_SESSION)){
         session_start();
     }
 

@@ -5,7 +5,7 @@ if(!isset($_SESSION)){
 require "../config/connector.php";
 // $nama_session = $_SESSION["nama"];
 $query = "SELECT * FROM showroom_rafid_table";
-$result = mysqli_query($cn_user, $query);
+$result = mysqli_query($conn_user, $query);
 
 function onButtonCar() {
   global $result;
