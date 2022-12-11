@@ -98,13 +98,11 @@ class ShowroomController extends Controller
         }
 
 
-        $showroom->name = $data['name'];
-        $showroom->brand = $data['brand'];
-        $showroom->purchase_date = $data['purchase_date'];
-        $showroom->description = $data['description'];
-        $showroom->status = $data['status'];
-
-
+        $showroom->name = $request->name;
+        $showroom->brand = $request->brand;
+        $showroom->purchase_date = $request->purchase_date;
+        $showroom->description = $request->description;
+        $showroom->status = $request->status;
         $showroom->save();
 
         return redirect('/list')->with('success', 'Edit Car Success');
