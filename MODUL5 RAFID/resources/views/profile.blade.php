@@ -38,7 +38,7 @@
       </form>
         <div class="d-flex align-items-center gap-5 mt-5">
           <img src="../assets/img/logo-ead.png" alt="logoead" style="width:100px;">
-          <p style="margin-top: 20px; font-size:14px;">Nama_NIM</p>
+          <p style="margin-top: 20px; font-size:14px;">RAFID FADHIL_1202204021</p>
         </div>
     </div>
 </section>
