@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Showrooms;
+// use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Validation\Rule as ValidationRule;
 
 class ShowroomController extends Controller
 {
@@ -46,6 +48,9 @@ class ShowroomController extends Controller
     public function showCar(Request $request)
     {
         $showroom = Showrooms::all();
+        if (count($showroom)==0){
+            return view('add');
+        }
         return view('list')->with('showroom', $showroom);
     }
 
@@ -76,17 +81,27 @@ class ShowroomController extends Controller
     public function editCar(Request $request, $id)
     {
         $showroom = Showrooms::find($id);
-        $data = $request->all();
+        $data = $request->validate([
+            'name' => 'required',
+            'brand' => 'required',
+            'purchase_date' => 'required',
+            'description' => 'required',
+            'status' => 'required', ValidationRule::in(['Lunas', 'Belum-Lunas'])
+        ]);
+        if ($request->hasFile('image')) {
+            $data = $request->validate([
+                'image' => 'png,jpeg,jpg|max:2048',
+            ]);
+            $showroom->image = $request->file('image')->store('img');
+            Storage::delete('img'.$showroom->image);
+            $showroom->save();
+        }
 
 
         $showroom->name = $data['name'];
         $showroom->brand = $data['brand'];
         $showroom->purchase_date = $data['purchase_date'];
         $showroom->description = $data['description'];
-        if ($request->hasFile('image')) {
-            $img = Storage::disk('public')->put('img', $request->file('image'));
-            $showroom->image = $img;
-        }
         $showroom->status = $data['status'];
 
 
