@@ -104,6 +104,6 @@ class UserController extends Controller
         $user = User::find($id);
         // dd($car);
 
-        return view('profile');
+        return view('profile', compact('user'));
     }
 }
