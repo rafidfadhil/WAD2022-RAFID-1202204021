@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('content')
+
 <!-- Jumbotron -->
 <section id="home">
     <div class="container">
